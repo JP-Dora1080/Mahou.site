@@ -108,6 +108,7 @@ p {
     line-height: 1.4em;
     transform: scale(1.2);
     transition: 0.5s;
+    border-radius: 50px 50px 40px 5%
 }
 
 .close_button{
