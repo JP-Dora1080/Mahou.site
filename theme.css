@@ -42,6 +42,11 @@ p {
   line-height:1.7
 }
 
+::selection {
+	color: #242628;
+  background-color: #cb49e5;
+}
+
 .col,
 .col-xl-auto {
   position: relative;
