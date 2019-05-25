@@ -147,6 +147,7 @@ p {
   background-image: linear-gradient(-90deg, #c778ec, #5471ad);
   transition: .5s;
   background-size: 200%;
+  text-shadow: 0px 0px 8px  #77185b;
 }
 
 .btn-gradation:hover {
@@ -184,7 +185,8 @@ p {
   font-weight: bold;
   font-size: 20px;
   color: #c778ec;
-  text-shadow: 0px 4px 2px rgba(0, 0, 0, 0.32), 0px 1px 0px #ae61ca, 0px 2px 0px #924ea7, 0px 3px 0px #9f54ad;
+  text-shadow: 0px 4px 2px rgba(0, 0, 0, 0.32), 0px 1px 0px #ae61ca, 0px 2px 0px #924ea7, 0px 3px 0px #9f54ad, 0px 0px 8px  #77185b;
+  background: url(img/bg.gif)
 }
 
 .text-3d span {
@@ -198,5 +200,5 @@ p {
   line-height: 30px;
   transform: translateY(18px);
   color: #5471ad;
-  text-shadow: 0px 2px 1px rgba(0, 0, 0, 0.32), 0px 1px 0px #617eca, 0px 1px 0px #4e65a7, 0px 1px 0px #5474ad;
+  text-shadow: 0px 2px 1px rgba(0, 0, 0, 0.32), 0px 1px 0px #617eca, 0px 1px 0px #4e65a7, 0px 1px 0px #5474ad, 0px 0px 8px  #241777;
 }
