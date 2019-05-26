@@ -185,7 +185,7 @@ p {
   font-weight: bold;
   font-size: 20px;
   color: #c778ec;
-  text-shadow: 0px 4px 2px rgba(0, 0, 0, 0.32), 0px 1px 0px #ae61ca, 0px 2px 0px #924ea7, 0px 3px 0px #9f54ad, 0px 0px 8px  #77185b;
+  text-shadow: 0px 4px 2px rgba(0, 0, 0, 0.32), 0px 1px 0px #ae61ca, 0px 2px 0px #924ea7, 0px 3px 0px #9f54ad, 0px 0px 30px  #77185b;
   background: url(img/bg.gif)
 }
 
