@@ -40,14 +40,14 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
   margin-bottom: 0.5rem;
   color: #c7d0d8;
-  text-shadow: 0px 0px 8px  #77838f;
+  text-shadow: 0px 0px 8px #77838f;
 }
 
 p {
   margin-top: 0;
   margin-bottom: 1rem;
   color: #77838f;
-  line-height:1.7
+  line-height: 1.7;
 }
 
 ::selection {
@@ -80,16 +80,16 @@ p {
 }
 
 .h-screen {
-  height:100vh
+  height: 100vh;
 }
 
 /*modal*/
 
-.modal_wrap input{
+.modal_wrap input {
     display: none;
 }
 
-.modal_overlay{
+.modal_overlay {
     display: flex;
     justify-content: center;
     overflow: auto;
@@ -105,13 +105,13 @@ p {
     transform: scale(0);
 }
 
-.modal_trigger{
+.modal_trigger {
     position: absolute;
     width: 100%;
     height: 100%;
 }
 
-.modal_content{
+.modal_content {
     align-self: center;
     width: 60%;
     max-width: 800px;
@@ -121,29 +121,41 @@ p {
     line-height: 1.4em;
     transform: scale(1.2);
     transition: 0.5s;
-    border-radius: 25px 25px 25px 3%
+    border-radius: 25px 25px 25px 3%;
 }
 
-.close_button{
+.close_button {
     position: absolute;
     top: 14px;
     right: 16px;
     font-size: 24px;
     cursor: pointer;
     color: #7b348e;
+    transition: .5s;
 }
 
-.modal_wrap input:checked ~ .modal_overlay{
+.close_button:hover {
+    position: absolute;
+    top: 14px;
+    right: 16px;
+    font-size: 24px;
+    cursor: pointer;
+    color: #7b348e;
+    text-shadow: 0px 0px 8px  #63204f;
+    transition: .5s;
+}
+
+.modal_wrap input:checked ~ .modal_overlay {
     opacity: 1;
     transform: scale(1);
     transition: opacity 0.5s;
 }
 
-.modal_wrap input:checked ~ .modal_overlay .modal_content{
+.modal_wrap input:checked ~ .modal_overlay .modal_content {
     transform: scale(1);
 }
 
-.btn-gradation {
+.btn-about {
   display: inline-block;
   width: 80px;
   text-align: center;
@@ -151,7 +163,7 @@ p {
   color: #FFF;
   text-decoration: none;
   font-weight: bold;
-  padding:6px 12px;
+  padding: 6px 12px;
   border-radius: 4px;
   background-image: linear-gradient(-90deg, #c778ec, #5471ad);
   transition: .5s;
@@ -159,34 +171,28 @@ p {
   text-shadow: 0px 0px 8px  #77185b;
 }
 
-.btn-gradation:hover {
+.btn-about:hover {
   background-position: right center;
 }
 
-.btn-border-bottom {
-  position: relative;
+.btn-donation {
   display: inline-block;
-  font-weight: bold;
-  padding: 0.25em 0;
+  width: 130px;
+  text-align: center;
+  font-size: 10px;
+  color: #FFF;
   text-decoration: none;
-  color: #67c5ff;
+  font-weight: bold;
+  padding: 12px 12px;
+  border-radius: 4px;
+  background-image: linear-gradient(-90deg, #78cfec, #0045d6);
+  transition: .5s;
+  background-size: 200%;
+  text-shadow: 0px 0px 8px #211777;
 }
 
-.btn-border-bottom:before {
-  position: absolute;
-  content: '';
-  width: 100%;
-  height: 4px;
-  top: 100%;
-  left: 0;
-  border-radius: 3px;
-  background:#67c5ff;
-  transition: .2s;
-}
-
-.btn-border-bottom:hover:before {
-  top: -webkit-calc(100% - 3px);
-  top: calc(100% - 3px);
+.btn-donation:hover {
+  background-position: right center;
 }
 
 .text-3d {
@@ -194,8 +200,8 @@ p {
   font-weight: bold;
   font-size: 20px;
   color: #c778ec;
-  text-shadow: 0px 4px 2px rgba(0, 0, 0, 0.32), 0px 1px 0px #ae61ca, 0px 2px 0px #924ea7, 0px 3px 0px #9f54ad, 0px 0px 30px  #77185b;
-  background: url(img/bg.gif)
+  text-shadow: 0px 4px 2px rgba(0, 0, 0, 0.32), 0px 1px 0px #ae61ca, 0px 2px 0px #924ea7, 0px 3px 0px #9f54ad, 0px 0px 20px #77185b;
+  background: url(img/bg.gif);
 }
 
 .text-3d span {
@@ -209,5 +215,5 @@ p {
   line-height: 30px;
   transform: translateY(18px);
   color: #5471ad;
-  text-shadow: 0px 2px 1px rgba(0, 0, 0, 0.32), 0px 1px 0px #617eca, 0px 1px 0px #4e65a7, 0px 1px 0px #5474ad, 0px 0px 8px  #241777;
+  text-shadow: 0px 2px 1px rgba(0, 0, 0, 0.32), 0px 1px 0px #617eca, 0px 1px 0px #4e65a7,0px 0px 8px #241777;
 }
