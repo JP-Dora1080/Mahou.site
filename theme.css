@@ -30,15 +30,23 @@ hr {
   overflow: visible;
 }
 
+h {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  color: #c7d0d8;
+}
+
 h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
   margin-bottom: 0.5rem;
+  color: #c7d0d8;
+  text-shadow: 0px 0px 8px  #77838f;
 }
 
 p {
   margin-top: 0;
   margin-bottom: 1rem;
-  color:#77838f;
+  color: #77838f;
   line-height:1.7
 }
 
@@ -109,7 +117,7 @@ p {
     max-width: 800px;
     padding: 30px 30px 15px;
     box-sizing: border-box;
-    background: #fff;
+    background: #1c1c1c;
     line-height: 1.4em;
     transform: scale(1.2);
     transition: 0.5s;
@@ -122,6 +130,7 @@ p {
     right: 16px;
     font-size: 24px;
     cursor: pointer;
+    color: #7b348e;
 }
 
 .modal_wrap input:checked ~ .modal_overlay{
