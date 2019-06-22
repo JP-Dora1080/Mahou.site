@@ -117,7 +117,7 @@ p {
     max-width: 800px;
     padding: 30px 30px 15px;
     box-sizing: border-box;
-    background: #1c1c1c;
+    background: #23272A;
     line-height: 1.4em;
     transform: scale(1.2);
     transition: 0.8s;
@@ -169,10 +169,13 @@ p {
   transition: .5s;
   background-size: 200%;
   text-shadow: 0px 0px 8px  #77185b;
+  transition-duration: 0.2s;
 }
 
 .btn-about:hover {
   background-position: right center;
+  border-radius: 7px;
+  transition-duration: 0.2s;
 }
 
 .btn-donation {
@@ -189,10 +192,13 @@ p {
   transition: .5s;
   background-size: 200%;
   text-shadow: 0px 0px 8px #211777;
+  transition-duration: 0.2s;
 }
 
 .btn-donation:hover {
   background-position: right center;
+  border-radius: 7px;
+  transition-duration: 0.2s;
 }
 
 .text-3d {
